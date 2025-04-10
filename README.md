@@ -17,5 +17,15 @@
 
 
 ## Logistic Regression
+1. The input is a p dimensional vector 
+2. Logistic Regression is very similar to linear Regression
+3. We fit the straight line to the sigmoid function 
+4. We are dealing with probabilites thus using sigmoid [0,1]
+5. GOAL 1: want to maximize likelihood 
+6. GOAL 2: minimize cross entropy 
+7. The loss function or objective function is cross entropy 
+8. we use gradient descent to update weights and bias to minimise cross entropy ( loss )
+9. Negative Log likelihood of a bernoulli model (cross entropy)
+
 
 
