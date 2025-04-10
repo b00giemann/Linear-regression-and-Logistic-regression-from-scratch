@@ -40,6 +40,7 @@ class linearRegression:
 
     def predict(self,X):
 
+        # function using updated weights and biase
         y_pred = np.dot(X,self.weights) + self.bias
         return y_pred
     
